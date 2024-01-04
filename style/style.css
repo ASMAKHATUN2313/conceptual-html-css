@@ -12,9 +12,13 @@
     height: 700px;
     background-size: cover;
     background-position:left ;
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+    /* background-color: cyan; */
+
+
 }
 .hero h1{
-    color: rgb(42, 145, 145);
+    color: rgb(46, 42, 145);
     font-size: 100px;
     text-align: center;
     font-weight: 700;
@@ -42,7 +46,7 @@
     border-color: aquamarine;
     
 }
-.article h2{
+.article h2, #cow-type{
     text-align: center;
     font-size:40px;
     border-style: solid;
@@ -51,11 +55,28 @@
     border-top: 0px;
     border-right: 0px;
     margin: 30px;
+    background:linear-gradient(rgb(228, 185, 192) , rgb(149, 65, 65));
 
 
 }
 .article p .imp{
-    font-size: 1.5em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1em;
+
+
+}
+.image-flex{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+
+    /* justify-content: center; */
+}
+.image-flex, div{
+  min-width:300px;
+}
+.image-flex, img{
+    width: 100%;
+
 
 }
